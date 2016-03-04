@@ -25,6 +25,46 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return .LightContent
+    }
+    
+    @IBAction func startAction(sender: UIButton) {
+        
+        guard isPlaying else {
+            startBtn.enabled = false
+            pauseBtn.enabled = true
+            timer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: Selector("updateTimer"), userInfo: nil, repeats: true)
+            isPlaying = true
+            return;
+        }
+        
+    }
+    @IBAction func stopAction(sender: UIButton) {
+        
+        guard !isPlaying else {
+            startBtn.enabled = true
+            pauseBtn.enabled = false
+            timer.invalidate()
+            isPlaying = false
+            return
+        }
+    }
+    @IBAction func resetAction(sender: UIButton) {
+        timer.invalidate()
+        startBtn.enabled = true
+        pauseBtn.enabled = true
+        counter = 0
+        timeLabel.text = String(format: "%.1f", counter)
+        isPlaying = false
+    }
+    
+    func updateTimer() {
+        counter = counter + 0.1
+        timeLabel.text = String(format: "%.1f", counter)
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
