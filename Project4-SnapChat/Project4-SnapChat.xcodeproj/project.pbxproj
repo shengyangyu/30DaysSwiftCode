@@ -8,11 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D37B47AE1C8D1837006F78B0 /* ViewLeftController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37B47AC1C8D1837006F78B0 /* ViewLeftController.swift */; };
-		D37B47AF1C8D1837006F78B0 /* ViewLeftController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D37B47AD1C8D1837006F78B0 /* ViewLeftController.xib */; };
 		D37B47B21C8D1846006F78B0 /* ViewRightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37B47B01C8D1846006F78B0 /* ViewRightController.swift */; };
-		D37B47B31C8D1846006F78B0 /* ViewRightController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D37B47B11C8D1846006F78B0 /* ViewRightController.xib */; };
 		D37B47B61C8D19C0006F78B0 /* ViewCenterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37B47B41C8D19C0006F78B0 /* ViewCenterController.swift */; };
-		D37B47B71C8D19C0006F78B0 /* ViewCenterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D37B47B51C8D19C0006F78B0 /* ViewCenterController.xib */; };
 		D38AC6981C897BC7000DB540 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38AC6971C897BC7000DB540 /* AppDelegate.swift */; };
 		D38AC69A1C897BC7000DB540 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38AC6991C897BC7000DB540 /* ViewController.swift */; };
 		D38AC69D1C897BC7000DB540 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38AC69B1C897BC7000DB540 /* Main.storyboard */; };
@@ -22,11 +19,8 @@
 
 /* Begin PBXFileReference section */
 		D37B47AC1C8D1837006F78B0 /* ViewLeftController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewLeftController.swift; sourceTree = "<group>"; };
-		D37B47AD1C8D1837006F78B0 /* ViewLeftController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewLeftController.xib; sourceTree = "<group>"; };
 		D37B47B01C8D1846006F78B0 /* ViewRightController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewRightController.swift; sourceTree = "<group>"; };
-		D37B47B11C8D1846006F78B0 /* ViewRightController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewRightController.xib; sourceTree = "<group>"; };
 		D37B47B41C8D19C0006F78B0 /* ViewCenterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCenterController.swift; sourceTree = "<group>"; };
-		D37B47B51C8D19C0006F78B0 /* ViewCenterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewCenterController.xib; sourceTree = "<group>"; };
 		D38AC6941C897BC7000DB540 /* Project4-SnapChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project4-SnapChat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38AC6971C897BC7000DB540 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D38AC6991C897BC7000DB540 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,11 +64,8 @@
 				D38AC6991C897BC7000DB540 /* ViewController.swift */,
 				D38AC69B1C897BC7000DB540 /* Main.storyboard */,
 				D37B47AC1C8D1837006F78B0 /* ViewLeftController.swift */,
-				D37B47AD1C8D1837006F78B0 /* ViewLeftController.xib */,
 				D37B47B01C8D1846006F78B0 /* ViewRightController.swift */,
-				D37B47B11C8D1846006F78B0 /* ViewRightController.xib */,
 				D37B47B41C8D19C0006F78B0 /* ViewCenterController.swift */,
-				D37B47B51C8D19C0006F78B0 /* ViewCenterController.xib */,
 				D38AC69E1C897BC8000DB540 /* Assets.xcassets */,
 				D38AC6A01C897BC8000DB540 /* LaunchScreen.storyboard */,
 				D38AC6A31C897BC8000DB540 /* Info.plist */,
@@ -141,11 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D38AC6A21C897BC8000DB540 /* LaunchScreen.storyboard in Resources */,
-				D37B47AF1C8D1837006F78B0 /* ViewLeftController.xib in Resources */,
-				D37B47B31C8D1846006F78B0 /* ViewRightController.xib in Resources */,
 				D38AC69F1C897BC8000DB540 /* Assets.xcassets in Resources */,
 				D38AC69D1C897BC7000DB540 /* Main.storyboard in Resources */,
-				D37B47B71C8D19C0006F78B0 /* ViewCenterController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

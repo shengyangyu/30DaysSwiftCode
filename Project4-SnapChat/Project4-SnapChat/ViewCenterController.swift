@@ -35,7 +35,7 @@ class ViewCenterController: UIViewController, UIImagePickerControllerDelegate, U
         super.viewWillAppear(animated)
         
         captureSession = AVCaptureSession()
-        captureSession?.sessionPreset = AVCaptureSessionPreset1920x1080
+        captureSession?.sessionPreset = AVCaptureSessionPresetiFrame1280x720
         
         let backCamera = AVCaptureDevice.defaultDeviceWithMediaType(AVMediaTypeVideo)
         var error: NSError?

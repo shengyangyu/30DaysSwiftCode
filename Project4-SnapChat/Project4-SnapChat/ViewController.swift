@@ -16,10 +16,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         UIApplication.sharedApplication().statusBarHidden = true
+
+        let story = UIStoryboard.init(name: "Main", bundle: NSBundle.mainBundle())
         
-        let leftView = ViewLeftController(nibName: "ViewLeftController", bundle: nil)
-        let centerView = ViewCenterController(nibName: "ViewCenterController", bundle: nil)
-        let rightView = ViewRightController(nibName: "ViewRightController", bundle: nil)
+        let leftView = story.instantiateViewControllerWithIdentifier("ViewLeftController")
+        let centerView = story.instantiateViewControllerWithIdentifier("ViewCenterController")
+        let rightView = story.instantiateViewControllerWithIdentifier("ViewRightController")
         
         self.addChildViewController(leftView)
         self.mScrollView.addSubview(leftView.view)
